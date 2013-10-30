@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<title>Segundo exemplo JavaScript</title>
+		<style type="text/css">
+		#corpo { background-color: gray;}
+		#decora { width: 100px; height: 50px; border: 2px solid blue; background-color: #933;}
+		#redecora {width: 100px; height: 50px; border: 2px solid red; background-color: #339;}
+		#corpo2 { background-color: green;}
+		</style>
+
+		<!-- Area destinada ao Script. -->
+		<script type="text/javascript">
+		//Funcao mudaCorpo() muda a cor de fundo do documento HTML
+		function mudaCorpo(){
+			var idCorpo = document.getElementById('corpo').id="corpo2";
+		}
+
+		//Funcao mudaDecoracao() muda a decoracao do botão.
+		function mudaDecoracao() {
+			document.getElementById('decora').id="redecora";
+		}
+
+		</script>
+
+	</head>
+
+	<body id='corpo' onclick="mudaCorpo();">
+
+		<h1>
+			Funções em JavaScript		
+		</h1>
+
+		<div>
+			Para executar uma função em JavaScript precisamos conhecer um pouco sobre Eventos.
+		</div>	
+		<br />
+		<span id='decora' onmouseover="mudaDecoracao();">CLIQUE AQUI PARA MUDAR</span>
+
+	</body>
+</html>
