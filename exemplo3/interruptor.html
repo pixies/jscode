@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<title>Terceiro exemplo JavaScript</title>
+		<style type="text/css">
+		body {background-color: #993}
+		#interruptor {position: absolute; left: 47%; top: 40%; background-image: url("desligar.png"); height: 109px; width: 49px}
+		#interruptorOn {position: absolute; left: 47%; top: 40%; background-image: url("ligar.png"); height: 109px; width: 49px}
+		.centro {position: absolute; left: 40%; top: 60%;}
+		</style>
+
+		<!-- Area destinada ao Script. -->
+		<script type="text/javascript">
+		//Funcao mudaCorpo() muda a cor de fundo do documento HTML
+		
+		function ligar() {
+			document.getElementById('interruptor').id="interruptorOn";
+		}
+
+		</script>
+
+	</head>
+
+	<body id='corpo' onclick="mudaCorpo();">
+
+		<div id='interruptor'>
+			
+			<img class="desligado" />
+
+		</div>
+
+			<h2 class="centro" onclick="ligar();">Ligue o interruptor!</h2>
+
+	</body>
+</html>
