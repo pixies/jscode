@@ -1,0 +1,8 @@
+A partir deste exemplo irei modificar os códigos, para utilizar uma boa prática para implementação
+na web. Abordaremos de camadas, separando, Marcação (HTML), Apresentação (CSS) e Ação (javaScript).
+
+Assim iremos encontrar outras pastas dentro da pasta rais com o exemplo, as pastas são: 
+1. css (arquivo estilo.css);
+2. img (com as figuras utilizadas);
+3. js (arquivo com as funções javascript).
+

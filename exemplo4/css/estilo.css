@@ -1,0 +1,5 @@
+body {background-color: #993}
+.lampada-off {position: absolute; left: 47%; top: 40%; background-image: url("../img/desligar.png"); height: 109px; width: 49px}
+.lampada-on {position: absolute; left: 47%; top: 40%; background-image: url("../img/ligar.png"); height: 109px; width: 49px}
+		
+#painel {position: absolute; left: 55%; top: 42%; width: 300px; height: 80px}
